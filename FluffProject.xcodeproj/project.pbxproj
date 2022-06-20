@@ -14,6 +14,23 @@
 		2373BA5F28283E8A00855005 /* FluffProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA5D28283E8A00855005 /* FluffProject.xcdatamodeld */; };
 		2373BA6128283E8C00855005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2373BA6028283E8C00855005 /* Assets.xcassets */; };
 		2373BA6428283E8C00855005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2373BA6228283E8C00855005 /* LaunchScreen.storyboard */; };
+		2373BA71282857A400855005 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA70282857A400855005 /* TabBarController.swift */; };
+		2373BA73282858D100855005 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA72282858D100855005 /* WeightViewController.swift */; };
+		2373BA752828591D00855005 /* CaloriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA742828591D00855005 /* CaloriesViewController.swift */; };
+		2373BA772828593300855005 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA762828593300855005 /* ProfileViewController.swift */; };
+		2373BA792828595D00855005 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA782828595D00855005 /* MainTableViewController.swift */; };
+		2373BA7E28290C1F00855005 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA7C28290C1F00855005 /* UIView+.swift */; };
+		2373BA8F282AC7EE00855005 /* WeightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA8C282AC7EE00855005 /* WeightModel.swift */; };
+		2373BA91282ADD9300855005 /* EnterYourWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA90282ADD9300855005 /* EnterYourWeightViewController.swift */; };
+		2373BA93282AEC7900855005 /* CoreDataWeightManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA92282AEC7800855005 /* CoreDataWeightManager.swift */; };
+		2373BA96282B084700855005 /* EnterYourGoalWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA95282B084700855005 /* EnterYourGoalWeightViewController.swift */; };
+		2373BA98282B085B00855005 /* EnterYourStartWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA97282B085B00855005 /* EnterYourStartWeightViewController.swift */; };
+		2373BA9C282B0BAB00855005 /* ControlWeightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA9B282B0BAB00855005 /* ControlWeightModel.swift */; };
+		2373BA9F282B19D800855005 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373BA9D282B19D800855005 /* MainTableViewCell.swift */; };
+		2373BAA0282B19D800855005 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2373BA9E282B19D800855005 /* MainTableViewCell.xib */; };
+		23946657282C410B004F0F64 /* EnterYourCaloriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23946656282C410A004F0F64 /* EnterYourCaloriesViewController.swift */; };
+		2394665A282C55D8004F0F64 /* EnterYourLimitCaloriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23946659282C55D8004F0F64 /* EnterYourLimitCaloriesViewController.swift */; };
+		8F9BFF305F374B93D172E921 /* Pods_FluffProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7FD09F4DA835B1FC05DB7F /* Pods_FluffProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,25 @@
 		2373BA6028283E8C00855005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2373BA6328283E8C00855005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2373BA6528283E8C00855005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2373BA70282857A400855005 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2373BA72282858D100855005 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		2373BA742828591D00855005 /* CaloriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesViewController.swift; sourceTree = "<group>"; };
+		2373BA762828593300855005 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2373BA782828595D00855005 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		2373BA7C28290C1F00855005 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		2373BA8C282AC7EE00855005 /* WeightModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightModel.swift; sourceTree = "<group>"; };
+		2373BA90282ADD9300855005 /* EnterYourWeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterYourWeightViewController.swift; sourceTree = "<group>"; };
+		2373BA92282AEC7800855005 /* CoreDataWeightManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataWeightManager.swift; sourceTree = "<group>"; };
+		2373BA95282B084700855005 /* EnterYourGoalWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourGoalWeightViewController.swift; sourceTree = "<group>"; };
+		2373BA97282B085B00855005 /* EnterYourStartWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourStartWeightViewController.swift; sourceTree = "<group>"; };
+		2373BA9B282B0BAB00855005 /* ControlWeightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlWeightModel.swift; sourceTree = "<group>"; };
+		2373BA9D282B19D800855005 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		2373BA9E282B19D800855005 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		23946656282C410A004F0F64 /* EnterYourCaloriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourCaloriesViewController.swift; sourceTree = "<group>"; };
+		23946659282C55D8004F0F64 /* EnterYourLimitCaloriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourLimitCaloriesViewController.swift; sourceTree = "<group>"; };
+		3C7FD09F4DA835B1FC05DB7F /* Pods_FluffProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluffProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAC18794F782A9DED14B9C4 /* Pods-FluffProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluffProject.release.xcconfig"; path = "Target Support Files/Pods-FluffProject/Pods-FluffProject.release.xcconfig"; sourceTree = "<group>"; };
+		FB46CDED3FE9391A2450BAEF /* Pods-FluffProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluffProject.debug.xcconfig"; path = "Target Support Files/Pods-FluffProject/Pods-FluffProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9BFF305F374B93D172E921 /* Pods_FluffProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +81,8 @@
 			children = (
 				2373BA5328283E8A00855005 /* FluffProject */,
 				2373BA5228283E8A00855005 /* Products */,
+				CEE4825E5C854B2EA6C5A59B /* Pods */,
+				2A3D7A4B810A7D719DF63381 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +100,110 @@
 				2373BA5428283E8A00855005 /* AppDelegate.swift */,
 				2373BA5628283E8A00855005 /* SceneDelegate.swift */,
 				2373BA5828283E8A00855005 /* ViewController.swift */,
+				2373BA89282AC7EE00855005 /* Model */,
+				2373BA7A28290C1F00855005 /* Extensions */,
+				2373BA6B2828560E00855005 /* ViewControllers */,
+				2373BA7F282A885800855005 /* TableViewCells */,
 				2373BA5A28283E8A00855005 /* Main.storyboard */,
 				2373BA6028283E8C00855005 /* Assets.xcassets */,
 				2373BA6228283E8C00855005 /* LaunchScreen.storyboard */,
 				2373BA6528283E8C00855005 /* Info.plist */,
-				2373BA5D28283E8A00855005 /* FluffProject.xcdatamodeld */,
+				2373BA86282AC75900855005 /* CoreDataManager */,
 			);
 			path = FluffProject;
+			sourceTree = "<group>";
+		};
+		2373BA6B2828560E00855005 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2373BA70282857A400855005 /* TabBarController.swift */,
+				2373BA94282B07F200855005 /* EnterYourWeightControllers */,
+				23946658282C5558004F0F64 /* CaloriesViewControllers */,
+				2373BA762828593300855005 /* ProfileViewController.swift */,
+				2373BA782828595D00855005 /* MainTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2373BA7A28290C1F00855005 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2373BA7C28290C1F00855005 /* UIView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2373BA7F282A885800855005 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2373BAA2282B19FA00855005 /* MainTableViewCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		2373BA86282AC75900855005 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2373BA92282AEC7800855005 /* CoreDataWeightManager.swift */,
+				2373BA5D28283E8A00855005 /* FluffProject.xcdatamodeld */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		2373BA89282AC7EE00855005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2373BA8C282AC7EE00855005 /* WeightModel.swift */,
+				2373BA9B282B0BAB00855005 /* ControlWeightModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2373BA94282B07F200855005 /* EnterYourWeightControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2373BA72282858D100855005 /* WeightViewController.swift */,
+				2373BA90282ADD9300855005 /* EnterYourWeightViewController.swift */,
+				2373BA95282B084700855005 /* EnterYourGoalWeightViewController.swift */,
+				2373BA97282B085B00855005 /* EnterYourStartWeightViewController.swift */,
+			);
+			path = EnterYourWeightControllers;
+			sourceTree = "<group>";
+		};
+		2373BAA2282B19FA00855005 /* MainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2373BA9D282B19D800855005 /* MainTableViewCell.swift */,
+				2373BA9E282B19D800855005 /* MainTableViewCell.xib */,
+			);
+			path = MainTableViewCell;
+			sourceTree = "<group>";
+		};
+		23946658282C5558004F0F64 /* CaloriesViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2373BA742828591D00855005 /* CaloriesViewController.swift */,
+				23946656282C410A004F0F64 /* EnterYourCaloriesViewController.swift */,
+				23946659282C55D8004F0F64 /* EnterYourLimitCaloriesViewController.swift */,
+			);
+			path = CaloriesViewControllers;
+			sourceTree = "<group>";
+		};
+		2A3D7A4B810A7D719DF63381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7FD09F4DA835B1FC05DB7F /* Pods_FluffProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE4825E5C854B2EA6C5A59B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB46CDED3FE9391A2450BAEF /* Pods-FluffProject.debug.xcconfig */,
+				4DAC18794F782A9DED14B9C4 /* Pods-FluffProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2373BA6828283E8C00855005 /* Build configuration list for PBXNativeTarget "FluffProject" */;
 			buildPhases = (
+				937A25F127ED617E91B8FCF0 /* [CP] Check Pods Manifest.lock */,
 				2373BA4D28283E8A00855005 /* Sources */,
 				2373BA4E28283E8A00855005 /* Frameworks */,
 				2373BA4F28283E8A00855005 /* Resources */,
@@ -131,20 +268,61 @@
 				2373BA6428283E8C00855005 /* LaunchScreen.storyboard in Resources */,
 				2373BA6128283E8C00855005 /* Assets.xcassets in Resources */,
 				2373BA5C28283E8A00855005 /* Main.storyboard in Resources */,
+				2373BAA0282B19D800855005 /* MainTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		937A25F127ED617E91B8FCF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FluffProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2373BA4D28283E8A00855005 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2373BA73282858D100855005 /* WeightViewController.swift in Sources */,
+				2373BA91282ADD9300855005 /* EnterYourWeightViewController.swift in Sources */,
+				2373BA8F282AC7EE00855005 /* WeightModel.swift in Sources */,
+				2373BA752828591D00855005 /* CaloriesViewController.swift in Sources */,
 				2373BA5928283E8A00855005 /* ViewController.swift in Sources */,
+				2373BA98282B085B00855005 /* EnterYourStartWeightViewController.swift in Sources */,
+				2373BA9C282B0BAB00855005 /* ControlWeightModel.swift in Sources */,
+				2373BA792828595D00855005 /* MainTableViewController.swift in Sources */,
+				2373BA96282B084700855005 /* EnterYourGoalWeightViewController.swift in Sources */,
+				2394665A282C55D8004F0F64 /* EnterYourLimitCaloriesViewController.swift in Sources */,
+				2373BA9F282B19D800855005 /* MainTableViewCell.swift in Sources */,
 				2373BA5528283E8A00855005 /* AppDelegate.swift in Sources */,
+				2373BA71282857A400855005 /* TabBarController.swift in Sources */,
 				2373BA5728283E8A00855005 /* SceneDelegate.swift in Sources */,
+				2373BA7E28290C1F00855005 /* UIView+.swift in Sources */,
+				2373BA772828593300855005 /* ProfileViewController.swift in Sources */,
+				2373BA93282AEC7900855005 /* CoreDataWeightManager.swift in Sources */,
 				2373BA5F28283E8A00855005 /* FluffProject.xcdatamodeld in Sources */,
+				23946657282C410B004F0F64 /* EnterYourCaloriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +466,13 @@
 		};
 		2373BA6928283E8C00855005 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB46CDED3FE9391A2450BAEF /* Pods-FluffProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5YX5MW6HJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FluffProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,11 +496,13 @@
 		};
 		2373BA6A28283E8C00855005 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAC18794F782A9DED14B9C4 /* Pods-FluffProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5YX5MW6HJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FluffProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,6 +510,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
