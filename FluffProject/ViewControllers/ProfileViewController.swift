@@ -234,7 +234,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
     @objc private func saveHeightButtonClick() {
         print("click")
         let alert = UIAlertController(
-            title: "Change Name",
+            title: "Change Height",
             message: nil,
             preferredStyle: .alert
         )
@@ -255,7 +255,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
             if textFields[0].text != "" {
                 if let height = Int(textFields[0].text!) {
                     UserDefaults.standard.set(height, forKey: "valueHeightTextField")
-                    self.heightLabel.text = "\(UserDefaults.standard.string(forKey: "valueHeightTextField") ?? "125 cm") cm"
+                    self.heightLabel.text = "\(UserDefaults.standard.string(forKey: "valueHeightTextField") ?? "125") cm"
                 }
             }
         }

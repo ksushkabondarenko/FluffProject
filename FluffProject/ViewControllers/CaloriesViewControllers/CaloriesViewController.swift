@@ -60,7 +60,7 @@ class CaloriesViewController: UIViewController {
         plusButton.addTarget(self, action: #selector(saveButtonClick), for: .touchUpInside)
         // navigationController
         navigationController?.navigationBar.prefersLargeTitles = true
-        title = "Weight Control"
+        title = "Calories Control"
         // view
         self.view.backgroundColor = .systemBackground
         //goalWeightCircleView
@@ -174,6 +174,7 @@ class CaloriesViewController: UIViewController {
     }
     @objc private func saveGoalButtonClick() {
         ateCalories = 0
+        circleView.backgroundColor = .green
         caloriesLabel.text = "\(ateCalories)"
         UserDefaults.standard.set(ateCalories, forKey: "valueFromAteCaloriesTextField")
     }
